@@ -11,7 +11,7 @@ import humidity_icon from '../Assets/humidity.png'
 
 
 const Weather = () => {
-    const API_KEYS = process.env.API;
+    const API_KEYS = API;
     const [weatherData, setWeatherData] = useState(false);
     const inputRef = useRef()
     const allIcon = {
